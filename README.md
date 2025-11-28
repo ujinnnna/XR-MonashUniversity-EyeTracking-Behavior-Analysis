@@ -1,4 +1,4 @@
-# 🧪 VR Social Bias Experiment (Research Project)
+#  VR Social Bias Experiment (Research Project)
 
 > **Project Duration:** 2025.11 ~ 2026.01 (Expected)  
 > **Client:** Monash University (Research Team led by Rigissa Megalokonomou)  
