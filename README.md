@@ -14,7 +14,7 @@
 
 ---
 
-## ⚙️Target Hardware & Tech Stack
+## Target Hardware & Tech Stack
 
 본 프로젝트는 데이터 수집을 위해 **Eye-tracking**과 **Facial Expression** 감지가 가능한 HMD에 최적화되어 개발됩니다.
 
