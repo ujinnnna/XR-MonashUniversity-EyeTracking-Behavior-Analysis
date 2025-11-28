@@ -1,7 +1,5 @@
 # 🧪 VR Social Bias Experiment (Research Project)
 
-
-
 > **Project Duration:** 2025.11 ~ 2026.01 (Expected)  
 > **Client:** Monash University (Research Team led by Rigissa Megalokonomou)  
 > **Developer:** 이창연, 나우진, Kasey Main
@@ -10,25 +8,31 @@
 
 본 프로젝트는 **성별(Gender)과 인종(Ethnicity)에 따른 사회적 차별과 편견을 연구**하기 위한 가상현실(VR) 실험 어플리케이션입니다.
 
-참가자는 가상 카페 환경에서 다양한 인종과 성별을 가진 4명의 아바타와 상호작용하며, 연구팀은 이 과정에서 발생하는 참가자의 **시선(Eye-tracking)**, **동공 확장(Pupil dilation)**, **의사결정 데이터**를 수집하여 분석합니다.
+참가자는 가상 카페 환경에서 다양한 인종과 성별을 가진 4명의 아바타와 상호작용하며, 연구팀은 이 과정에서 발생하는 참가자의 **시선(Eye-tracking)**, **의사결정 데이터**를 수집하여 분석합니다.
+
+
+<p align="center">
+  <img src="Images/스크린샷 2025-11-28 120803.png" alt="VR Cafe Scene Interaction Preview" width="80%">
+  <br>
+</p>
 
 ---
 
-## Target Hardware & Tech Stack
+##  Target Hardware & Tech Stack
 
 본 프로젝트는 데이터 수집을 위해 **Eye-tracking**과 **Facial Expression** 감지가 가능한 HMD에 최적화되어 개발됩니다.
 
-* **Engine:** Unity 3D 
+* **Engine:** Unity 3D
 * **Primary Device:** Meta Quest Pro (Eye & Face Tracking enabled)
 * **Key SDKs:**
     * Meta XR SDK for Eye/Face Tracking
     * Custom Data Logging System (CSV/JSON Export)
-      
+
 ---
 
 ##  Experiment Workflow
 
-실험은 참가자의 편견 없는 반응을 이끌어내기 위해 통제된 4단계 시퀀스로 진행됩니다.
+실험은 참가자의 편견 없는 반응을 이끌어내기 위해 4단계 시퀀스로 진행됩니다.
 
 ### 1. Introduction & Neutral Room
 * 중립적인 가상 공간에서 실험의 목적과 진행 방식에 대한 텍스트 가이드를 제공합니다.
@@ -36,6 +40,7 @@
 ### 2. The Cafe Scene (Interaction Phase)
 * **환경:** 일상적인 소음과 배경 NPC가 존재하는 카페 환경.
 * **진행:** 4명의 서로 다른 아바타(인종/성별 조합)가 무작위 순서(Random Order)로 등장.
+
 * **상호작용:** 각 아바타는 1~2분 분량의 스크립트(무작위 배정)를 낭독합니다.
 * **평가:** 아바타 퇴장 후, 컨트롤러 또는 시선(Gaze)을 사용하여 4개의 객관식 질문에 답변합니다.
 
@@ -61,7 +66,6 @@
 | **Interaction Time** | 각 섹션별 소요 시간 및 응답 반응 속도(Latency) | Per Event |
 
 ---
-
 
 ##  Confidentiality & License
 
