@@ -3,7 +3,7 @@
 > **Project Duration:** 2025.11 ~ 2026.01  
 > **Client:** Monash University (Research Team led by Rigissa Megalokonomou)  
 > **Developer:** 이창연, 나우진, Kasey Main
-
+ 
 ##  개요
 
 본 프로젝트는 **성별과 인종에 따른 사회적 차별과 편견을 연구**하기 위한 가상현실 실험 프로젝트입니다..
